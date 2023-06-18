@@ -2,26 +2,45 @@
 <html>
 
 <head>
-<title> Our Learn Web </title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<title> Kizas </title>
+
 </head>
 
 <body>
-<h1> This is our first web </h1>
-<p> I want you to learn some basic of html code that I just learn </p>
-<p>First of all every code need to use "<" and ">" </p>
-<p> you can text code " strong " mean <strong>Bold</strong> </p>
-<p> and also you can text code " em " mean <em>Italic</em> </p><br>
 
-<p> Ok next is " br " we use to creat a new line for our paragrahp </p> 
-<p> And next we have " a href="" " to creat a <a href="">link</a> </p>
-<p> Please don't click it , nothing will happen because I didn't insert any link</p><br><br> 
+<div id="mySidebar" class="sidebar">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+  <a href="#">Home</a>
+  <a href="#">Our Gallery</a>
+  <a href="#">About Us</a>
+</div>
 
-<p> Last we have " img src="" " that we use to insert an Image from internet </p>
-<p> It better to use image from internet so whoever access our web , they will be see the image too </p>
-<p> Example : <br>
+<div id="main">
+  	<button class="openbtn" onclick="openclose()">☰ Open Sidebar</button>  
+  	<h1> Welcome To Kiza Gallery </h1>
+  
+  	<h2> I Created This Web Special For My Beloved Girl</h2>
 	<br>
 	<br>
-	<img src="https://i.pinimg.com/564x/97/07/dd/9707ddbef620d0e91d6e799ff20b59bc.jpg"
+	<p class="Kiza1"> Let's Start From Choosing What You Want To See </p>
+
+	<br>
+
+	<div id="parent">
+		<div>
+			<a href="Pages\ourfirstmoment.html"><img src="https://drive.google.com/uc?export=view&id=1qYLu0EviSUKmcjlD9Fhz0sItVhOusKHf"></a>		
+			<span class="caption"> Mall Adventure </span>
+		</div>
+		<div>
+			<a href="Pages\anyermemory.html"><img src="https://drive.google.com/uc?export=view&id=1O1rnpxJrLeiyFADy1bCgAebuU1gFFsPs"></a>
+			<span class="caption"> Beach Memory </span>
+		</div>
+	</div>
+
+</div>
+
+<script type="text/javascript" src="script.js"></script>
 
 </body>
 
