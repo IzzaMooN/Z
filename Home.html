@@ -28,7 +28,7 @@
     <meta property="og:title" content="Home">
     <meta property="og:type" content="website">
   <meta data-intl-tel-input-cdn-path="intlTelInput/"></head>
-  <body data-path-to-root="./" class="u-body u-overlap u-xl-mode" data-lang="en">
+  <body data-home-page="Home.html" data-home-page-title="Home" data-path-to-root="./" class="u-body u-overlap u-xl-mode" data-lang="en">
     <section class="u-align-left u-clearfix u-uploaded-video u-video u-section-1" src="" id="sec-8041">
       <div class="u-background-video u-expanded" style="">
         <div class="embed-responsive">
@@ -43,11 +43,19 @@
         <h1 class="u-text u-text-body-alt-color u-text-default u-title u-text-1">Izzaddin H.</h1>
         <p class="u-large-text u-text u-text-body-alt-color u-text-variant u-text-2">Chemical Analyst<br>Data Scientist<br>Program &amp; Web Developer
         </p>
-        <a href="https://nicepage.com" class="u-border-none u-btn u-btn-round u-button-style u-hover-palette-4-light-1 u-palette-4-dark-2 u-radius-50 u-text-hover-black u-btn-1">About Me</a>
-      </div>
-    </section>
-    <section class="u-clearfix u-palette-4-light-3 u-section-2" id="sec-87c2">
-      <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+
+
+
+        <!-- Trigger/Open The Modal -->
+<button id="myBtn" class="u-border-none u-btn u-btn-round u-button-style u-hover-palette-4-light-1 u-palette-4-dark-2 u-radius-50 u-text-hover-black u-btn-1">About Me</button>
+
+<!-- The Modal -->
+<div id="myModal" class="u-clearfix u-palette-4-light-3 u-section-2 modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
         <div class="custom-expanded data-layout-selected u-clearfix u-gutter-0 u-layout-wrap u-layout-wrap-1">
           <div class="u-gutter-0 u-layout">
             <div class="u-layout-col">
@@ -58,18 +66,21 @@
               </div>
               <div class="u-container-style u-layout-cell u-palette-4-light-2 u-size-30 u-layout-cell-2">
                 <div class="u-container-layout u-container-layout-2">
-                  <h2 class="u-align-left u-text u-text-default u-text-1">About Me</h2>
+    <h2 class="u-align-left u-text u-text-default u-text-1">About Me</h2>
                   <p class="u-align-justify u-custom-font u-font-merriweather u-text u-text-2">Hello !! Born in 2002 You can call me Zadin<br>
                     <br>I'm a Chemical Analyst who have interset in Data things. So, I follow some course and self learning about Database and Machine Learning, Programming language such as VBA, Pyhton, and Java Script, also I learn about devoloping or create a website using tools or just type the HTML and CSS code and about Data Scientist. <br>
                     <br>Beside learn about program I also learn management things and take being a student in An University&nbsp;
                   </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+  </div>
+
+</div>
+
+
+
+
       </div>
     </section>
+    
     <section class="u-align-center u-clearfix u-palette-4-dark-2 u-section-3" id="carousel_3c12">
       <div class="u-clearfix u-sheet u-valign-middle-lg u-valign-middle-sm u-valign-middle-xs u-sheet-1">
         <h2 class="u-custom-font u-font-merriweather u-text u-text-default u-text-palette-4-light-3 u-text-1" data-animation-name="customAnimationIn" data-animation-duration="500">Last</h2>
@@ -81,8 +92,8 @@
         <h2 class="u-align-left u-custom-font u-font-merriweather u-text u-text-1" data-animation-name="customAnimationIn" data-animation-duration="4000">Case 1</h2>
         <h5 class="u-align-left u-custom-font u-font-merriweather u-text u-text-2" data-animation-name="customAnimationIn" data-animation-duration="1500" data-animation-delay="1000">Special Database For Chemical Storage</h5>
         <div class="custom-expanded u-palette-4-light-2 u-shape u-shape-rectangle u-shape-1"></div>
-        <div class="custom-expanded u-carousel u-gallery u-gallery-slider u-layout-carousel u-lightbox u-no-transition u-show-text-none u-gallery-1" id="carousel-e844" data-interval="5000" data-u-ride="carousel">
-          <ol class="u-absolute-hcenter u-carousel-indicators u-carousel-indicators-1">
+        <div class="custom-expanded u-carousel u-carousel-duration-500 u-gallery u-gallery-slider u-layout-carousel u-lightbox u-no-transition u-show-text-none u-gallery-1" id="carousel-e844" data-interval="3000" data-u-ride="carousel">
+          <ol class="u-absolute-hcenter u-carousel-indicators u-hidden u-carousel-indicators-1">
             <li data-u-target="#carousel-e844" data-u-slide-to="0" class="u-active u-grey-70 u-shape-circle" style="width: 10px; height: 10px;"></li>
             <li data-u-target="#carousel-e844" data-u-slide-to="1" class="u-grey-70 u-shape-circle" style="width: 10px; height: 10px;"></li>
             <li data-u-target="#carousel-e844" data-u-slide-to="2" class="u-grey-70 u-shape-circle" style="width: 10px; height: 10px;"></li>
@@ -133,7 +144,7 @@
               <style data-mode="XS" data-visited="true"></style>
             </div>
           </div>
-          <a class="u-absolute-vcenter u-carousel-control u-carousel-control-prev u-grey-70 u-icon-circle u-opacity u-opacity-70 u-spacing-10 u-text-white u-carousel-control-1" href="#carousel-e844" role="button" data-u-slide="prev">
+          <a class="u-absolute-vcenter u-carousel-control u-carousel-control-prev u-grey-70 u-hidden u-icon-circle u-opacity u-opacity-70 u-spacing-10 u-text-white u-carousel-control-1" href="#carousel-e844" role="button" data-u-slide="prev">
             <span aria-hidden="true">
               <svg viewBox="0 0 451.847 451.847"><path d="M97.141,225.92c0-8.095,3.091-16.192,9.259-22.366L300.689,9.27c12.359-12.359,32.397-12.359,44.751,0
 c12.354,12.354,12.354,32.388,0,44.748L173.525,225.92l171.903,171.909c12.354,12.354,12.354,32.391,0,44.744
@@ -145,7 +156,7 @@ c12.354,12.354,12.354,32.388,0,44.748L173.525,225.92l171.903,171.909c12.354,12.3
 c-12.354,12.365-32.386,12.365-44.745,0l-194.29-194.281C100.226,242.115,97.141,234.018,97.141,225.92z"></path></svg>
             </span>
           </a>
-          <a class="u-absolute-vcenter u-carousel-control u-carousel-control-next u-grey-70 u-icon-circle u-opacity u-opacity-70 u-spacing-10 u-text-white u-carousel-control-2" href="#carousel-e844" role="button" data-u-slide="next">
+          <a class="u-absolute-vcenter u-carousel-control u-carousel-control-next u-grey-70 u-hidden u-icon-circle u-opacity u-opacity-70 u-spacing-10 u-text-white u-carousel-control-2" href="#carousel-e844" role="button" data-u-slide="next">
             <span aria-hidden="true">
               <svg viewBox="0 0 451.846 451.847"><path d="M345.441,248.292L151.154,442.573c-12.359,12.365-32.397,12.365-44.75,0c-12.354-12.354-12.354-32.391,0-44.744
 L278.318,225.92L106.409,54.017c-12.354-12.359-12.354-32.394,0-44.748c12.354-12.359,32.391-12.359,44.75,0l194.287,194.284
@@ -207,5 +218,33 @@ background-color: #000000 !important
         <span>Website Builder Software</span>
       </a>. 
     </section>
+  
+<script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
   
 </body></html>
